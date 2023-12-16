@@ -1,0 +1,237 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face { 
+font-family: "Modern"; 
+src: url("MixModernSolid.ttf"); 
+font-weight: normal; 
+}
+
+@font-face {
+  font-family: "Vilaka";
+  src: url("VilakaModernSerifFont.ttf");
+  font-weight: normal;
+}
+/* DO NOT CHANGE */
+
+body{
+  margin: auto;
+  Padding: auto;
+  max-width: fit-content;
+  max-height: fit-content;
+  background-color: #5a175d;    
+  border: 3px solid #dd9933;
+}
+/* DO NOT CHANGE */
+
+/*Beginning of Navigation tool*/
+
+ul#NavBar{
+  list-style-type: none;
+  margin: 0;
+  Padding: 0;
+  overflow: hidden;
+  padding-top: 20px;
+}
+
+ nav a{
+ display: block; 
+ padding: 35px;
+ text-decoration: none;
+ font-family: "Vilaka";
+ font-size: 1.9em;
+  background-color:#dd9933;
+  color: #5a175d;
+  border: 2px solid #5a175d;
+ padding-left: 20px !important;
+ padding-right: 20px !important;
+ padding-top: 10px !important;
+ padding-bottom: 10px !important;
+} 
+
+ul#NavBar li{
+  float: left;
+}
+
+
+a:hover{
+  background-color:#5a175d; 
+  color: #dd9933;
+  border: 2px solid #dd9933;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
+
+a:active{
+  text-decoration:underline;
+}
+
+/*END OF NAVIGATION*/
+
+/*Beginning of Heading*/
+
+h1{
+  text-align: center;
+  -webkit-text-stroke: 2px #dd9933;
+  font-size: 7em;
+  font-family: "Vilaka";
+  -webkit-text-fill-color: transparent;
+}
+
+header{
+  border: 2px solid #dd9933;
+  position: relative;
+}
+
+/*END OF HEADING*/
+
+h2{
+  text-align: center;
+  padding-top: 40px;
+  font-size: 3em;
+  color: #dd9933;
+  text-decoration: underline;
+  letter-spacing: 0;
+  font-family: "Modern";
+}
+
+p#underlay{
+  text-align: center;
+  font-size: 1.1em;
+  color: #dd9933;
+   font-family: 'Courier New', Courier, monospace;
+}
+
+.row{
+   padding-top: 20px;
+   align-content:center ;
+   width: 825px;
+ }
+
+   .column {
+    float: left;
+    width: 50%;
+    padding: 15px;
+    }
+
+    .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+
+h3{
+  text-align: center;
+  font-size: 1.8em;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 1px solid #05878a;
+  color: #5a175d;
+  background: linear-gradient(to right, #05878a, #dd9933);
+  border-radius: 25px;
+  font-family: "Vilaka";
+}
+
+p#pnowedu, p#pnowcareer, p#pfutureedu, p#pfuturecareer{
+  text-align: center;
+  font-size: 1em;
+  color:#dd9933;
+  font-family: 'Courier New', Courier, monospace;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border: 3px double #05878a;
+}
+
+h4{
+  text-align: center;
+  color: #05878a;
+  font-size: 2.7em;
+  font-family: "Modern";
+  padding-top:15px;
+  padding-bottom: 15px;
+  border-top: 2px dotted #dd9933;
+}
+
+h5{
+  text-align: center;
+  color:#dd9933;
+  font-family: "Vilaka";
+  font-size: 1.5em;
+  padding-left: 10px;
+  border-bottom: 3px ridge #dd9933;
+}
+
+.column1Row1, .column1Row2, .column1Row3{
+  padding: 10px;
+  border: 3px ridge #dd9933;
+}
+
+p#pgame, p#pbiz, p#ptravel{
+  text-align: center;
+  color: #05878a;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+img{
+ display: block;
+  padding-bottom: 20px;
+  margin: auto;
+}
+
+img#imgbiz{
+  width: 260px;
+  padding: 5px;
+}
+
+img#imgtravel{
+  width:230px;
+  padding: 5px;
+  padding-top:20px;
+}
+
+img#imggame{
+  width:330px;
+  padding-top: 10px;
+  padding: 5px;
+}
+
+p#overall{
+  text-align: center;
+  border: 1px solid #dd9933;
+  font-size: 3em;
+  font-family: "Vilaka";
+  color: #5a175d;
+  background: linear-gradient(to right, #dd9933, #05878a);
+  padding: 5px;
+}
+
+p#poverall{
+  padding-bottom: 25px;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  color: #dd9933;
+  font-size: 1.3em;
+  width: 820px;
+}
+
+footer{
+  text-align: center;
+  color: #5a175d;
+  background-color: #05878a;
+  font-family: 'Vilaka';
+  padding: 3px;
+  font-size: 1.3em;
+}

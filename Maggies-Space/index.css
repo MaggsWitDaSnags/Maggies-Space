@@ -1,0 +1,144 @@
+/* DO NOT CHANGE */
+*{
+  padding: 0;
+  margin: 0;
+}
+
+@font-face { 
+font-family: "Modern"; 
+src: url("MixModernSolid.ttf"); 
+font-weight: normal; 
+}
+
+@font-face {
+  font-family: "Vilaka";
+  src: url("VilakaModernSerifFont.ttf");
+  font-weight: normal;
+}
+
+body{
+  margin: auto;
+  Padding: auto;
+  max-width: fit-content;
+  max-height: fit-content;
+  background-color: #179ff1;
+  border: 5px solid #ffc914;
+}
+
+ul#NavBar{
+  list-style-type: none;
+  margin: 0;
+  Padding: 0;
+  overflow: hidden;
+  padding-top: 20px;
+}
+
+ nav a{
+ display: block; 
+ padding: 35px;
+ text-decoration: none;
+ font-family: "Vilaka";
+ font-size: 1.9em;
+  background-color: #ffc914;
+  color: #179ff1;
+  border: 2px solid #179ff1;
+ padding-left: 20px !important;
+ padding-right: 20px !important;
+ padding-top: 10px !important;
+ padding-bottom: 10px !important;
+} 
+
+li{
+  float: left;
+}
+
+
+a:hover{
+  background-color:#179ff1; 
+  color: #ffc914;
+  border: 2px solid #ffc914;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
+
+a:active{
+  text-decoration:underline;
+}
+
+
+/*END OF NAVIGATION*/
+
+h1{
+  text-align: center;
+  -webkit-text-stroke: 2px #ffc914;
+  font-size: 7em;
+  font-family: "Vilaka";
+  -webkit-text-fill-color: transparent;
+}
+
+header{
+  border: 3px solid #ffc914;
+  position: relative;
+}
+
+/*END OF HEADING*/
+
+h2{
+  text-align: center;
+  padding-top: 40px;
+  font-size: 5em;
+  color:#9cdcfe;
+  text-decoration: underline;
+  letter-spacing: 0;
+  font-family: "Modern";
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 273px 273px 273px;
+  text-align: center;
+}
+
+.column {
+  margin: 5px;
+}
+
+    .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+
+p#intro, p#Education, p#freetime, p#aboutProject{
+  font-family: "Vilaka";
+  padding: 10px;
+  color: black;
+  font-size: 1.3em;
+}
+
+.CenterColumn{
+  background-image: linear-gradient(#da70d6, #ffc914);
+  border-radius: 8%;
+  border: solid 3px #9cdcfe;
+}
+
+img#imgfroggy2, img#imgkirby2{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+img#imgavatar1{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+footer{
+  text-align: center;
+  color: #179ff1;
+  background-color: #ffc914;
+  font-family: 'Vilaka';
+  padding: 3px;
+  font-size: 1.3em;
+}

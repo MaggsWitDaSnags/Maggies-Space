@@ -1,0 +1,224 @@
+/* DO NOT CHANGE */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face { 
+font-family: "Modern"; 
+src: url("MixModernSolid.ttf"); 
+font-weight: normal; 
+}
+
+@font-face {
+  font-family: "Vilaka";
+  src: url("VilakaModernSerifFont.ttf");
+  font-weight: normal;
+}
+/* DO NOT CHANGE */
+
+body{
+  margin: auto;
+  Padding: auto;
+  max-width: fit-content;
+  max-height: fit-content;
+  background-color: #27474E;    
+  border: 2px solid #e3dba8;
+}
+/* DO NOT CHANGE */
+
+/*Beginning of Navigation tool*/
+
+ul#NavBar{
+  list-style-type: none;
+  margin: 0;
+  Padding: 0;
+  overflow: hidden;
+  padding-top: 20px;
+}
+
+ nav a{
+ display: block; 
+ padding: 35px;
+ text-decoration: none;
+ font-family: "Vilaka";
+ font-size: 1.9em;
+  background-color: #e3dba8;
+  color: #27474E;
+  border: 2px solid #27474E;
+ padding-left: 20px !important;
+ padding-right: 20px !important;
+ padding-top: 10px !important;
+ padding-bottom: 10px !important;
+} 
+
+ul#NavBar li{
+  float: left;
+}
+
+
+a:hover{
+  background-color:#27474E; 
+  color: #e3dba8;
+  border: 2px solid #e3dba8;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
+
+a:active{
+  text-decoration:underline;
+}
+
+/*END OF NAVIGATION*/
+
+/*Beginning of Heading*/
+
+h1{
+  text-align: center;
+  -webkit-text-stroke: 2px #e3dba8;
+  font-size: 7em;
+  font-family: "Vilaka";
+  -webkit-text-fill-color: transparent;
+}
+
+header{
+  border: 2px solid #e3dba8;
+  position: relative;
+}
+
+/*END OF HEADING*/
+
+/* H2 */
+
+h2{
+  text-align: center;
+  padding-top: 40px;
+  font-size: 3em;
+  color: #e3dba8;
+  text-decoration: underline;
+  letter-spacing: 0;
+}
+
+p#underlay{
+  text-align: center;
+  font-size: 1em;
+  color: #e3dba8;
+   font-family: 'Courier New', Courier, monospace;
+}
+
+
+ .row{
+   padding-top: 30px;
+   align-content:center ;
+   width: 820px;
+ }
+
+   .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    }
+
+    .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+
+h3{
+  text-align: center;
+  font-size: 1.7em;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 3px solid #e3dba8;
+  color: #27474E;
+  background-color: #EB984E;
+  border-radius: 25px;
+}
+
+p#Complete{
+  color: #e3dba8;
+  padding-bottom: 15px;
+  font-family: "Modern";
+  font-size: .8em;
+  font-weight: 100;
+  text-align: center;
+  text-decoration: underline;
+}
+
+p#Percent{
+  text-align: center;
+  font-family: "Vilaka";
+  font-size: 6em;
+  padding: 10px;
+  color:#EB984E;
+  border-radius: 60%;
+  border: 5px solid #EB984E;
+  background-color: #e3dba8;
+}
+  
+
+p#ContentDis{
+  text-align: center;
+  color: #e3dba8;
+  font-size: 1.4em;
+  font-family: "Modern";
+}
+
+ul#CourseDis{
+  list-style-position: inside;
+  color: #EB984E;
+  font-family: 'Courier New', Courier, monospace;
+  list-style-type: ' ★ ';
+  font-size: 1em;
+}
+
+p#GPA{
+  text-align: center;
+  font-family: "Vilaka";
+  font-size: 4em;
+  border: 3px solid #EB984E;
+  background-color: #e3dba8;
+  color: #27474E;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: inline-flex;
+}
+
+p#ActGPA{
+  text-align: center;
+  display: inline-flex;
+  font-family: "Vilaka";
+  font-size: 5em;
+  padding-left: 30px;
+  color: #e3dba8;
+}
+
+p#Star{
+  display: inline-flex;
+  padding: 10px;
+  font-size: 5.5em;
+  color: #e3dba8;
+  -webkit-text-stroke: 3px #EB984E;
+}
+
+p#GradDate{
+  text-align: center;
+  font-size: 1.4em;
+  padding-bottom: 20px;
+  color: #EB984E;
+  font-family: "Modern";
+}
+
+footer{
+  text-align: center;
+  color: #27474E;
+  background-color: #e3dba8;
+  font-family: 'Vilaka';
+  padding: 3px;
+  font-size: 1.3em;
+}
+
